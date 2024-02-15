@@ -61,14 +61,14 @@ created when copying this template above.
 
 4. Update the application port to use for local development:
 
-   Default port is 8080. If this does not work for you, update the line
-   `PORT=8080` to your port in all .env.* files
+   Default port is 8087. If this does not work for you, update the line
+   `PORT=8087` to your port in all .env.* files
 
 5. Start the dev server:
 
   ``npm start``
 
-The dev server is running at `http://localhost:8080 <http://localhost:8080>`_
+The dev server is running at `http://localhost:8087 <http://localhost:8087>`_
 or whatever port you setup.
 
 Making Your New Project's README File

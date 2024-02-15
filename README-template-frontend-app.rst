@@ -120,7 +120,7 @@ Follow these steps to provision, run, and enable an instance of the
 
 #. Finally, open the MFE in a browser
 
-   Navigate to `http://localhost:8080 <http://localhost:8080>`_ to open the
+   Navigate to `http://localhost:8087 <http://localhost:8087>`_ to open the
    MFE.  This is what it should look like if everything worked:
 
    .. figure:: ./docs/images/template.jpg
