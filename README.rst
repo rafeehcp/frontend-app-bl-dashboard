@@ -1,4 +1,4 @@
-frontend-template-application
+frontend-app-bl-dashboard
 #############################
 
 |license-badge| |status-badge| |ci-badge| |codecov-badge|
@@ -17,7 +17,7 @@ Getting Started
 ***************
 
 After copying the template repository, you'll want to do a find-and-replace to
-replace all instances of ``frontend-template-application`` with the name of
+replace all instances of ``frontend-app-bl-dashboard`` with the name of
 your new repository.  Also edit index.html to replace "Application Template"
 with a friendly name for this application that users will see in their browser
 tab.
@@ -61,14 +61,14 @@ created when copying this template above.
 
 4. Update the application port to use for local development:
 
-   Default port is 8080. If this does not work for you, update the line
-   `PORT=8080` to your port in all .env.* files
+   Default port is 8084. If this does not work for you, update the line
+   `PORT=8084` to your port in all .env.* files
 
 5. Start the dev server:
 
   ``npm start``
 
-The dev server is running at `http://localhost:8080 <http://localhost:8080>`_
+The dev server is running at `http://localhost:8084 <http://localhost:8084>`_
 or whatever port you setup.
 
 Making Your New Project's README File
@@ -81,7 +81,7 @@ understand your MFE, how to install it, and how to use it.
 Developing
 **********
 
-This section concerns development of ``frontend-template-application`` itself,
+This section concerns development of ``frontend-app-bl-dashboard`` itself,
 not the templated copy.
 
 It should be noted that one of the goals of this repository is for it to
@@ -98,7 +98,7 @@ Project Structure
 The source for this project is organized into nested submodules according to
 the `Feature-based Application Organization ADR`_.
 
-.. _Feature-based Application Organization ADR: https://github.com/openedx/frontend-template-application/blob/master/docs/decisions/0002-feature-based-application-organization.rst
+.. _Feature-based Application Organization ADR: https://github.com/openedx/frontend-app-bl-dashboard/blob/master/docs/decisions/0002-feature-based-application-organization.rst
 
 Build Process Notes
 ===================
@@ -129,7 +129,7 @@ channel`_.
 For anything non-trivial, the best path is to open an issue in this repository
 with as many details about the issue you are facing as you can provide.
 
-https://github.com/openedx/frontend-template-application/issues
+https://github.com/openedx/frontend-app-bl-dashboard/issues
 
 For more information about these options, see the `Getting Help`_ page.
 
@@ -174,23 +174,23 @@ The assigned maintainers for this component and other project details may be
 found in `Backstage`_. Backstage pulls this data from the ``catalog-info.yaml``
 file in this repo.
 
-.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application
+.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-bl-dashboard
 
 Reporting Security Issues
 *************************
 
 Please do not report security issues in public, and email security@openedx.org instead.
 
-.. |license-badge| image:: https://img.shields.io/github/license/openedx/frontend-template-application.svg
-    :target: https://github.com/openedx/frontend-template-application/blob/main/LICENSE
+.. |license-badge| image:: https://img.shields.io/github/license/openedx/frontend-app-bl-dashboard.svg
+    :target: https://github.com/openedx/frontend-app-bl-dashboard/blob/main/LICENSE
     :alt: License
 
 .. |status-badge| image:: https://img.shields.io/badge/Status-Maintained-brightgreen
 
-.. |ci-badge| image:: https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml/badge.svg
-    :target: https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml
+.. |ci-badge| image:: https://github.com/openedx/frontend-app-bl-dashboard/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/openedx/frontend-app-bl-dashboard/actions/workflows/ci.yml
     :alt: Continuous Integration
 
-.. |codecov-badge| image:: https://codecov.io/github/openedx/frontend-template-application/coverage.svg?branch=main
-    :target: https://codecov.io/github/openedx/frontend-template-application?branch=main
+.. |codecov-badge| image:: https://codecov.io/github/openedx/frontend-app-bl-dashboard/coverage.svg?branch=main
+    :target: https://codecov.io/github/openedx/frontend-app-bl-dashboard?branch=main
     :alt: Codecov
